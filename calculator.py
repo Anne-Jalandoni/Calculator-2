@@ -52,4 +52,9 @@ while True:
         num2 = float(tokens[2])
         equation = divide(num1, num2)
         print (equation)
+
+    elif tokens[0] == 'square':
+        num1 = float(tokens[1])
+        equation = square(num1)
+        print (equation)
       
