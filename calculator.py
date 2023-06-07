@@ -58,3 +58,7 @@ while True:
         equation = square(num1)
         print (equation)
       
+    elif tokens[0] == 'cube':
+        num1 = float(tokens[1])
+        equation = cube(num1)
+        print (equation)
