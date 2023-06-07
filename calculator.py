@@ -68,3 +68,9 @@ while True:
         num2 = float(tokens[2])
         equation = power(num1, num2)
         print (equation)
+
+    elif tokens[0] == 'mod':
+        num1 = float(tokens[1])
+        num2 = float(tokens[2])
+        equation = mod(num1, num2)
+        print (equation)
