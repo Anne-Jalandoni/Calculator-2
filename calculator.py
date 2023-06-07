@@ -34,4 +34,10 @@ while True:
         num2 = float(tokens[2])
         equation = add(num1, num2)
         print (equation)
+
+    elif tokens[0] == '-':
+        num1 = float(tokens[1])
+        num2 = float(tokens[2])
+        equation = subtract(num1, num2)
+        print (equation)
       
