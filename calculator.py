@@ -46,4 +46,10 @@ while True:
         num2 = float(tokens[2])
         equation = multiply(num1, num2)
         print (equation)
+
+    elif tokens[0] == '/':
+        num1 = float(tokens[1])
+        num2 = float(tokens[2])
+        equation = divide(num1, num2)
+        print (equation)
       
