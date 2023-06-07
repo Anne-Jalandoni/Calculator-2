@@ -62,3 +62,9 @@ while True:
         num1 = float(tokens[1])
         equation = cube(num1)
         print (equation)
+
+    elif tokens[0] == 'pow':
+        num1 = float(tokens[1])
+        num2 = float(tokens[2])
+        equation = power(num1, num2)
+        print (equation)
